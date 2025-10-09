@@ -1,0 +1,50 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-primary: #FFFFFF;
+  --color-bg: #343D4B;
+  --color-primary-inverted: #000000;
+  --color-bg-card: #272E37;
+  --color-bg-main: #222831;
+  --gradient: linear-gradient(91deg, rgba(144, 217, 224, 0.90) 0.2%, rgba(84, 96, 230, 0.90) 100%);
+  --gradient-inverted: linear-gradient(256deg, rgba(144, 217, 224, 0.90) 9.04%, rgba(84, 96, 230, 0.90) 100%);
+  --font: "Montserrat", sans-serif;
+}
+
+body {
+  color: var(--color-primary);
+  background-color: var(--color-bg);
+  font-family: var(--font);
+}
+
+.font-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-semibold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font-medium {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-normal {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
