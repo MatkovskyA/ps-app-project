@@ -12,6 +12,8 @@
   --gradient: linear-gradient(91deg, rgba(144, 217, 224, 0.90) 0.2%, rgba(84, 96, 230, 0.90) 100%);
   --gradient-inverted: linear-gradient(256deg, rgba(144, 217, 224, 0.90) 9.04%, rgba(84, 96, 230, 0.90) 100%);
   --font: "Montserrat", sans-serif;
+  --font-secondary: "Roboto";
+  --color-bg-button2: #008BFE;
 }
 
 body {

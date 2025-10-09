@@ -1,36 +1,22 @@
 <script setup>
-import { computed } from 'vue';
-import Button from './components/button/Button.vue';
-const ident = 'fla';
-
-const colorClass = computed(() => {
-  return ident === 'flag' ? 'red' : 'blue';
-})
-
+import Button2 from './components/button-2/Button2.vue';
 </script>
 
 <template>
-  <header>Logo</header>
-  <main :id="ident" :class="colorClass">Content</main>
-  <div>
-
-  </div>
-  <footer>
-    <Button>
-      <template #icon>+</template>
-      Сохранить
-      <template #minus>-</template>
-      <template #[ident]>!!!</template>
-    </Button>
-  </footer>
+  <main class="main">
+    <Button2>
+      <slot>
+        Начать игру
+      </slot>
+    </Button2>
+  </main>
 </template>
 
 <style scoped>
-.red {
-  color: red;
-}
-
-.blue {
-  color: blue;
-}
+  .main {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
 </style>
