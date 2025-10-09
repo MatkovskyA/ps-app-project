@@ -1,6 +1,10 @@
 # Компоненты
-- Кнопка
-- статистика
-- dayCard
 - App
+- LeftPanel
+- ListDays
+- CitySelect
+- Statistic
+- dayCard
 - WeatherIcon
+- Button
+- Input

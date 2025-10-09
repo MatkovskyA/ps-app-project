@@ -1,9 +1,4 @@
 :root {
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
   --color-primary: #FFFFFF;
   --color-bg: #343D4B;
   --color-primary-inverted: #000000;
@@ -15,9 +10,17 @@
 }
 
 body {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   color: var(--color-primary);
   background-color: var(--color-bg);
   font-family: var(--font);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
 }
 
 .font-bold {
